@@ -12,7 +12,7 @@ import PySimpleGUI as sg
 ## reports
     ### find parking bills by specific car
     ### total parking revenue by between dates with list
-## main window
+## main windoww
 
 main_layout = [
     [
