@@ -35,6 +35,7 @@ def manage_tariffs(main_window: sg.Window):
     layout = [
         [sg.Table(get_tariff_list(), headings=["id", "max hours", "hourly rate"], expand_x=True, expand_y=True)],
         [sg.Button("Add", key="-ADD-"), sg.Button("Remove", key="-REMOVE-")],
+        [sg.Button("Return", key="-RETURN-")]
     ]
     window = sg.Window(
         "Tariffs | Parking PTU20", 
